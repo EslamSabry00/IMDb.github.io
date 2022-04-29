@@ -1,0 +1,327 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="font-awesomeV6/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+           <section class="home vh-100">
+                <div class="sec1 vh-100">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-nav position-fixed top-0 start-0 end-0">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">
+                                <img src="images/IMDB_Logo_2016.svg.png" width="80px" >
+                            </a>
+                            <div class="ms-1 mt-3 w-50">
+                                <form class="container-fluid">
+                                <div class="input-group mt-1">
+                                    <input type="text" class="form-control form-control-edited" placeholder="Search IMDb" aria-label="Username" aria-describedby="basic-addon1" >
+                                    <a class="input-group-text text-decoration-none input-group-text-edited" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                </div>
+                                </form>
+                            </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active btn btn-secondary text-light mx-2 my-1" href="login.html">Sign In</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active btn btn-secondary text-light mx-2 my-1" aria-current="page" href="creataccount.html">Register</a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                      </nav>
+
+                      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="row w-100 vh-100 align-items-center container m-auto">
+                              <div class="col-xl-6 text-light">
+                                <h2 class="fs-1 fw-light">Iron Man <span class="float-end">2017</span></h2>
+                                <p>
+                                  <span class="me-5 fs-4 text-warning">
+                                    <i class="fa-solid fa-star text-warning fs-6"></i>
+                                      <i class="fa-solid fa-star text-warning fs-6"></i>
+                                      <i class="fa-solid fa-star text-warning fs-6"></i>
+                                      <i class="fa-solid fa-star text-warning fs-6"></i>
+                                      <i class="fa-solid fa-star-half text-warning fs-6"></i>
+                                  </span>4.7
+                                </p>
+                                <p class="fs-6">
+                                  Later, Stark develops his suit, adding weapons and other technological devices he designed through his company, Stark Industries. He uses the suit and successive versions to protect the world as Iron Man.
+                                </p>
+                                <a href="movie.html" type="button" class="btn btn-warning"><i class="fa-solid fa-film"></i> View Details</a>
+                              </div>
+                              <div class="col-xl-6 d-flex">
+                                <img src="images/Carousel1.jpg" class="w-35 m-auto">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row w-100 vh-100 align-items-center container m-auto">
+                              <div class="col-xl-6 text-light">
+                                <h2 class="fs-1 fw-light">Cuties Poster <span class="float-end">2020</span></h2>
+                                <p>
+                                  <span class="me-5 fs-4 text-warning">
+                                    <i class="fa-solid fa-star text-warning fs-6"></i>
+                                      <i class="fa-solid fa-star text-warning fs-6"></i>
+                                      <i class="fa-solid fa-star text-warning fs-6"></i>
+                                      <i class="fa-solid fa-star text-warning fs-6"></i>
+                                      <i class="fa-solid fa-star-half text-warning fs-6"></i>
+                                  </span>4.7
+                                </p>
+                                <p class="fs-6">
+                                  The film's ensemble cast is led by Fathia Youssouf who portrays Amy, a Senegalese-French girl with a traditional Muslim upbringing who is caught between traditional Muslim values and Internet culture when she joins a twerking dance crew.
+                                </p>
+                                <a href="movie.html" type="button" class="btn btn-warning"><i class="fa-solid fa-film"></i> View Details</a>
+                              </div>
+                              <div class="col-xl-6 d-flex">
+                                <img src="images/Carousel2.jpg" class="w-35 m-auto">
+                              </div>
+                            </div>
+                          </div>
+                
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+
+                    
+                </div>
+           </section>
+
+
+           <section class="all-movies p-5">
+            <div class="container">
+              <h2 class="text-light mb-3 fw-bold">All Movies :</h2>
+           <div class="row px-4">
+             
+                <div class="col-xl-3 col-md-6">
+                  <a href="movie.html" class="w-fit ">
+                    <div class="w-fit position-relative ">
+                         <img src="images/Carousel1.jpg" class="mw-100 h-100 rounded">
+                         <div class="bg-nav position-absolute bottom-0 end-0 start-0 text-light p-2">
+                            <h2 class="fs-3 fw-light">Iron Man <span class="float-end">2017</span></h2>
+                            <p>
+                              <span class="me-5 fs-4 text-warning">
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                  <i class="fa-solid fa-star text-warning fs-6"></i>
+                                  <i class="fa-solid fa-star text-warning fs-6"></i>
+                                  <i class="fa-solid fa-star text-warning fs-6"></i>
+                                  <i class="fa-solid fa-star-half text-warning fs-6"></i>
+                              </span>4.7
+                            </p>
+                            <button href="movie.html" type="button" class="btn btn-warning"><i class="fa-solid fa-film"></i> View Details</button>
+                         </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                  <a href="movie.html" class="w-fit">
+                    <div class="w-fit position-relative w-75">
+                         <img src="images/Carousel3.jpg" class="mw-100 h-100 rounded">
+                         <div class="bg-nav position-absolute bottom-0 end-0 start-0 text-light p-2">
+                          <h2 class="fs-3 fw-light">Iron Man <span class="float-end">2017</span></h2>
+                          <p>
+                            <span class="me-5 fs-4 text-warning">
+                              <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star-half text-warning fs-6"></i>
+                            </span>4.7
+                          </p>
+                          <button href="movie.html" type="button" class="btn btn-warning"><i class="fa-solid fa-film"></i> View Details</button>
+                         </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                  <a href="movie.html" class="w-fit">
+                    <div class="w-fit position-relative">
+                         <img src="images/Carousel4.jpg" class="mw-100 h-100 rounded">
+                         <div class="bg-nav position-absolute bottom-0 end-0 start-0 text-light p-2">
+                          <h2 class="fs-3 fw-light">Iron Man <span class="float-end">2017</span></h2>
+                          <p>
+                            <span class="me-5 fs-4 text-warning">
+                              <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star-half text-warning fs-6"></i>
+                            </span>4.7
+                          </p>
+                          <button href="movie.html" type="button" class="btn btn-warning"><i class="fa-solid fa-film"></i> View Details</button>
+                         </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                  <a href="movie.html" class="w-fit">
+                    <div class="w-fit position-relative">
+                         <img src="images/Carousel5.jpg" class="mw-100 h-100 rounded">
+                         <div class="bg-nav position-absolute bottom-0 end-0 start-0 text-light p-2">
+                          <h2 class="fs-3 fw-light">Iron Man <span class="float-end">2017</span></h2>
+                          <p>
+                            <span class="me-5 fs-4 text-warning">
+                              <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star text-warning fs-6"></i>
+                                <i class="fa-solid fa-star-half text-warning fs-6"></i>
+                            </span>4.7
+                          </p>
+                          <button href="movie.html" type="button" class="btn btn-warning"><i class="fa-solid fa-film"></i> View Details</button>
+                         </div>
+                    </div>
+                  </a>
+                </div>
+           </div>
+            </div>
+           </section>
+
+
+           <section class="all-actor p-5">
+            <div class="container">
+              <h2 class="text-light mb-3 text-dark fw-bold">All Actors :</h2>
+           <div class="row px-4">
+             
+                <div class="col-xl-3 col-md-6">
+                  <a href="crewMember.html" class="w-fit">
+                    <div class="w-fit position-relative">
+                         <img src="images/one.jpg" class="mw-100 rounded">
+                         <div class="bg-nav position-absolute bottom-0 end-0 start-0 text-light p-3 rounded-bottom">
+                             <h2 class="fs-4">ActorName</h2>
+                         </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                  <a href="crewMember.html" class="w-fit">
+                    <div class="w-fit position-relative">
+                         <img src="images/two.png" class="mw-100 rounded">
+                         <div class="bg-nav position-absolute bottom-0 end-0 start-0 text-light p-3 rounded-bottom">
+                             <h2 class="fs-4">ActorName</h2>
+                             
+                         </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                  <a href="crewMember.html" class="w-fit">
+                    <div class="w-fit position-relative">
+                         <img src="images/three.jpg" class="mw-100 rounded">
+                         <div class="bg-nav position-absolute bottom-0 end-0 start-0 text-light p-3 rounded-bottom" >
+                             <h2 class="fs-4">ActorName</h2>
+                             
+                         </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                  <a href="crewMember.html" class="w-fit">
+                    <div class="w-fit position-relative">
+                         <img src="images/one.jpg" class="mw-100 rounded">
+                         <div class="bg-nav position-absolute bottom-0 end-0 start-0 text-light p-3 rounded-bottom">
+                             <h2 class="fs-4">ActorName</h2>
+                             
+                         </div>
+                    </div>
+                  </a>
+                </div>
+           </div>
+            </div>
+           </section>
+
+
+           <section class="all-director p-5">
+            <div class="container">
+              <h2 class="text-light mb-3 text-light fw-bold">All Directors :</h2>
+           <div class="row px-4">
+             
+                <div class="col-xl-3 col-md-6">
+                  <a href="crewMember.html" class="w-fit">
+                    <div class="w-fit position-relative">
+                         <img src="images/one.jpg" class="mw-100 rounded">
+                         <div class="bg-nav position-absolute bottom-0 end-0 start-0 text-light p-3 rounded-bottom">
+                             <h2 class="fs-4">DirectorName</h2>
+                             
+                         </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                  <a href="crewMember.html" class="w-fit">
+                    <div class="w-fit position-relative">
+                         <img src="images/two.png" class="mw-100 rounded">
+                         <div class="bg-nav position-absolute bottom-0 end-0 start-0 text-light p-3 rounded-bottom">
+                             <h2 class="fs-4">DirectorName</h2>
+                             
+                         </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                  <a href="crewMember.html" class="w-fit">
+                    <div class="w-fit position-relative">
+                         <img src="images/three.jpg" class="mw-100 rounded">
+                         <div class="bg-nav position-absolute bottom-0 end-0 start-0 text-light p-3 rounded-bottom">
+                             <h2 class="fs-4">DirectorName</h2>
+                             
+                         </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                  <a href="crewMember.html" class="w-fit">
+                    <div class="w-fit position-relative">
+                         <img src="images/one.jpg" class="mw-100 rounded">
+                         <div class="bg-nav position-absolute bottom-0 end-0 start-0 text-light p-3 rounded-bottom">
+                             <h2 class="fs-4">DirectorName</h2>
+                             
+                         </div>
+                    </div>
+                  </a>
+                </div>
+           </div>
+            </div>
+           </section>
+
+           <footer>
+            <div class="navbar navbar-expand navbar-light m-auto fs-13 bg-light pt-3">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link facebook-color" href="#"><i class="fa-brands fa-facebook-square fa-xl"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link insta-color" href="#"><i class="fa-brands fa-instagram-square fa-xl"></i></a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link twitter-color" href="#"><i class="fa-brands fa-twitter-square fa-xl"></i></a>
+                      </li>
+                </ul>
+            </div>
+            <div class="navbar navbar-expand navbar-light m-auto fs-13 bg-light pt-0">
+                <ul class="navbar-nav m-auto">
+                <p>Copyright © 2022 Dev/Eslam Sabry. All Rights Reserved</p>
+            </ul>
+            
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

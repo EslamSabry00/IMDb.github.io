@@ -1,0 +1,60 @@
+.input-group-text-edited{
+    background-color: #ffffff;
+    border: 0px;
+}
+.form-control-edited{
+    border-right: 0px;
+}
+.form-control:focus{
+    border-color: #f0c14b;
+    box-shadow: 0 0 3px 2px rgba(228, 121, 17, 0.25);
+}
+.form-control{
+    border: 0px;
+}
+.bg-nav{
+    --bs-bg-opacity: 1;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.home{
+    background-image: url(../images/IMDb_Header_Page.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sec1{
+    background-color: rgba(0,0,0,0.5);
+}
+.w-35{
+    width: 35%;
+}
+.facebook-color{
+    color: #4267B2 !important;
+}
+.insta-color{
+    color: #bc2a8d !important;
+}
+.twitter-color{
+    color: #00acee !important;
+}
+.w-fit{
+    width:fit-content ;
+}
+.all-movies{
+    background-color: rgba(0,0,0,0.9);
+}
+nav{
+    z-index: 9999;
+}
+.all-actor{
+    background-color: rgba(0,0,0,0.2);
+}
+.all-director{
+    background-color: rgba(0,0,0,0.9)
+}
+
+
+
+
+
+

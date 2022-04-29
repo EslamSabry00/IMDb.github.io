@@ -1,0 +1,32 @@
+.bg-layer{
+    background-color: rgba(0,0,0,0.1);
+}
+.bg-nav{
+    --bs-bg-opacity: 1;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.bg-img{
+    background-image: url(../images/IMDb_Header_Page.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-box{
+    background-color: rgba(0,0,0,0.8);
+    
+}
+.py-6{
+    padding-top: 7rem!important;
+}
+.w-fit{
+    width:fit-content ;
+}
+.facebook-color{
+    color: #4267B2 !important;
+}
+.insta-color{
+    color: #bc2a8d !important;
+}
+.twitter-color{
+    color: #00acee !important;
+}

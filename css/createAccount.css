@@ -1,0 +1,33 @@
+.w-10{
+    width: 110px;
+}
+.form-control:focus{
+    border-color: #f0c14b;
+    box-shadow: 0 0 3px 2px rgba(228, 121, 17, 0.25);
+}
+.h-30{
+    height: 30px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.bg-img{
+    background-image:  url(../images/IMDb_Header_Page.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.bg-box{
+background-color: rgba(255, 255,255,0.9);
+}
+.facebook-color{
+    color: #4267B2 !important;
+}
+.insta-color{
+    color: #bc2a8d !important;
+}
+.twitter-color{
+    color: #00acee !important;
+}
